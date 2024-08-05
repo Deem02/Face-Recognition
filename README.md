@@ -1,4 +1,4 @@
-![Athorized](https://github.com/user-attachments/assets/23f95439-de38-4dc3-b892-a1d7334dc2a1)# Real-Time Face Recognition Application
+# Real-Time Face Recognition Application
 
 ## Table of Contents
 1. [Overview](#overview)
