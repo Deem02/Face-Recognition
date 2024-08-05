@@ -1,5 +1,7 @@
 # Real-Time Face Recognition Application
 
+This real-time face recognition application utilizes Flask, OpenCV, MTCNN, and FaceNet to identify and authenticate individuals through a webcam feed. The system captures video, detects faces, and compares them with stored face images to determine authorization. It's an efficient solution for implementing secure, real-time access control based on facial recognition technology.
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Project Structure](#project-structure)
