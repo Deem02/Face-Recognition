@@ -1,4 +1,4 @@
-# Real-Time Face Recognition Application
+![Athorized](https://github.com/user-attachments/assets/23f95439-de38-4dc3-b892-a1d7334dc2a1)# Real-Time Face Recognition Application
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -13,7 +13,9 @@
    - [app.py](#app.py)
    - [index.html](#index.html)
    - [Face Recognition Logic](#face-recognition-logic)
-
+6. [Example Outputs](#example-outputs)
+   - [Authorized](#authorized)
+   - [Unauthorized](#unauthorized)
 
 ## Overview
 This project is a real-time face recognition application using Flask, OpenCV, MTCNN, and FaceNet. It captures video from the webcam, detects faces, and compares them with stored face images to determine if the person is authorized.
@@ -75,4 +77,15 @@ The application will be accessible at `http://127.0.0.1:5000/` in your web brows
 2. **Face Embeddings**: Uses FaceNet to extract 128-dimensional embeddings for detected faces.
 3. **Comparison**: Compares the embeddings of the detected face with those of stored faces using cosine similarity. If the similarity exceeds a threshold, the person is marked as authorized.
 
+
+# Example Outputs
+
+### Authorized
+When a face matches with any of the stored face images, the output is annotated with "Authorized".
+
+#![Athorized](https://github.com/user-attachments/assets/347a30fe-9432-4083-be4f-16f618d1a41f)
+
+### Unauthorized
+When a face does not match any of the stored face images, the output is annotated with "Unauthorized".
+![Unauthorized](https://github.com/user-attachments/assets/3b9dfbee-8f66-4887-9436-b9541e01907e)
 
