@@ -39,13 +39,13 @@ face_recognition_app/
 ## Installation
 
 ### Prerequisites
-- Python 3.6+
-- Pip package manager
+- Python 3.x installed on your machine
+
 
 ### Dependencies
 Install the required packages using pip:
 ```bash
-pip install flask opencv-python-headless numpy mtcnn keras_facenet scikit-learn
+pip install Flask opencv-python numpy mtcnn keras-facenet scikit-learn
 ```
 
 ## Usage
@@ -85,7 +85,7 @@ The application will be accessible at `http://127.0.0.1:5000/` in your web brows
 ### Authorized
 When a face matches with any of the stored face images, the output is annotated with "Authorized".
 
-#![Athorized](https://github.com/user-attachments/assets/347a30fe-9432-4083-be4f-16f618d1a41f)
+![Athorized](https://github.com/user-attachments/assets/347a30fe-9432-4083-be4f-16f618d1a41f)
 
 ### Unauthorized
 When a face does not match any of the stored face images, the output is annotated with "Unauthorized".
